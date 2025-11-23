@@ -1,5 +1,4 @@
 import "dotenv/config";
-// @ts-expect-error require the .ts extension explicitly
 import app from "./app.ts";
 
 const PORT = process.env["PORT"] || 3000;
