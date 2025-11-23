@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "dev": "node --experimental-strip-types --watch ./src/app.ts",
+    "dev": "node --experimental-strip-types --watch ./src/server.ts",
     "test": "vitest --config ./vitest.config.ts",
     "test:coverage": "vitest --coverage"
   },
