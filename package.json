@@ -1,0 +1,31 @@
+{
+  "name": "express-boilterplate",
+  "version": "0.0.0",
+  "description": "An express backend boilerplate setup with TS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "node --experimental-strip-types --watch ./src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mshick97/express-boilterplate.git"
+  },
+  "author": "mshick97",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mshick97/express-boilterplate/issues"
+  },
+  "homepage": "https://github.com/mshick97/express-boilterplate#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
